@@ -1,0 +1,38 @@
+# Lines start with # are comments
+
+apiUrl=https://api6.tzscan.io/v3
+#apiUrl=https://api.alphanet.tzscan.io/v3
+
+nodeUrl=https://mainnet.tezrpc.me/
+#nodeUrl=https://alphanet.tezrpc.me/
+
+# set your own baker address
+bakerAddress=tz1VHFxUuBhwopxC9YC9gm5s2MHBHLyCtvN1
+
+# 0.1 means 10%
+commisionFee=0.1
+
+# the account to send reward from (not the baker address), should have enough balance
+paymentAddress=$The_account_to_send_reward_from
+#Ex: paymentAddress=tz1e8t7eLbjodqXEmsRaY5WiHiXCQTRmxywB
+
+# Fees for reward-transfering transaction (in MICRO tezos)
+transferFee=1275
+
+# gasLimit
+gasLimit=10200
+
+# In MICRO tezos (μ~\)
+transferMin=1000000
+
+# For telegram bot, https://core.telegram.org/bots#6-botfather
+botToken=$Your_telegram_bot_token
+notifyTo=$Your_telegram_group
+
+# Default: Auto pay ON, payment is made after 60 mins of message broadcasting to the telegram
+autopay=on
+payAfter=60
+
+# Pay-check Schedule
+checkSchedule=00 9,16,21 * * *
+timezone:Asia/Bangkok

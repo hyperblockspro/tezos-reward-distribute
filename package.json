@@ -1,0 +1,25 @@
+{
+  "name": "tz",
+  "version": "1.0.0",
+  "description": "Automatically distribute Tezos delegators' rewards.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "key": "node key.js"
+  },
+  "author": "HyperBlocksPro",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.4.5",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "cli-table": "^0.3.1",
+    "dotenv": "^8.0.0",
+    "node-cron": "^2.0.3",
+    "readline-sync": "^1.4.9",
+    "sotez": "github:thith/sotez"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
