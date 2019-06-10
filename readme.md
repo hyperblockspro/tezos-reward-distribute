@@ -3,22 +3,23 @@ Auto tezos reward distribution tool:
 - Intergrated telegram bot for message broadcasting after each unfrozen cycle.
 - 2 operation modes: manually or auto reward distributing
 
-© 2019 Copyright HyperBlocksPro, feel free to clone/use/copy
+© 2019 Copyright HyperBlocksPro, feel free to clone/use/copy.
 Website: https://hyperblocks.pro/
-Telegram group: https://t.me/hyperblockspro
+Telegram channel: https://t.me/hyperblockspro
+
 
 1. Setup
 - Install the required packages: `npm i`
 - Edit `config.txt` and `ignore.txt`:
-config.txt: configure your baker address, commission fee, gas, telegram bot, schedule,...
-ignore.txt: list of the delegators that will not be paid (in case you need)
+`config.txt`: configure your baker address, commission fee, gas, telegram bot, schedule,...
+`ignore.txt`: list of the delegators that will not be paid (in case you need)
 
 2. Run
 - `node .`
 
 3. Use the bot
-- set botToken in config.txt
-- set notifyTo in config.txt
+- set `botToken` in `config.txt`
+- set `notifyTo` in `config.txt`
 - `npm install pm2 -g`
 - `pm2 start bot.js`
 With this setting, you manually pay for each cycle, for auto pay, check the next part.
