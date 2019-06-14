@@ -1,9 +1,9 @@
-Auto tezos reward distribution tool:
+Tezos auto rewards distribution tool:
 - Scan/calculate the rewards (uses https://api6.tzscan.io/v3 for data collecting)
-- Intergrated telegram bot for message broadcasting after each unfrozen cycle.
-- 2 operation modes: manually or auto reward distributing
+- Integrated telegram bot for message broadcasting after each unfrozen cycle.
+- 2 operation modes: manually or auto reward distribution
 
-© 2019 Copyright HyperBlocksPro, feel free to clone/use/copy.
+Â©2019 Copyright Hyperblocks, feel free to clone/use/copy.
 Website: https://hyperblocks.pro/
 Telegram channel: https://t.me/hyperblockspro
 
@@ -59,4 +59,4 @@ pass=[EnterEncodedPass] pm2 start bot.js
 
 This setting is for autopay
 
-5. HyperBlocksPro is applied this for auto tezos reward distributing. If there is any issue in your operating, please report us. Thank you!
+5. At Hyperblocks we use this for Tezos auto reward distribution. If there is any issue in your setup, please let us know. Thank you!
